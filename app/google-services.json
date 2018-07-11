@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "331704905396",
+    "firebase_url": "https://dustbooks-92fbb.firebaseio.com",
+    "project_id": "dustbooks-92fbb",
+    "storage_bucket": "dustbooks-92fbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331704905396:android:a99cf85890ec45e1",
+        "android_client_info": {
+          "package_name": "com.astabits.dustbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331704905396-v3il6b7dl97shitkslcrv1uqhdve7dsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.astabits.dustbooks",
+            "certificate_hash": "1cb031b0d361cd12e1047292028efe9ad4039310"
+          }
+        },
+        {
+          "client_id": "331704905396-tcgknieq5ohetek9imudisl3pfl104gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApVLHoZRycpI-36PU-Y3HXBtwJpNZXUhg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331704905396-tcgknieq5ohetek9imudisl3pfl104gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

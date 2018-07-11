@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="9dp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/buyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="#2c5784"
+        android:fontFamily="@font/helvetica"
+        android:gravity="center"
+        android:text="@string/buy"
+        android:textColor="#fff"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="3dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="9dp"
+        android:layout_margin="10dp">
+
+    <TextView
+        android:layout_margin="1dp"
+        android:id="@+id/sellBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#fe9920"
+        android:fontFamily="@font/helvetica"
+        android:gravity="center"
+        android:text="@string/sell"
+        android:textColor="#fff"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

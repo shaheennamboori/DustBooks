@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DustBooks</string>
+    <string name="go_find_button">GO FIND</string>
+    <string name="branch">Branch</string>
+    <string name="college">College</string>
+    <string name="subject">Subject</string>
+    <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
+</resources>
